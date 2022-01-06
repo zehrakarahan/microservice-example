@@ -1,0 +1,49 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 10001
+        }
+      ],
+      "UpstreamPathTemplate": "/webapia/values",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Centrizen112233QWERTYUIOPZXCVB",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 10002
+        }
+      ],
+      "UpstreamPathTemplate": "/webapib/values",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Centrizen112233QWERTYUIOPZXCVB",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 10002
+        }
+      ],
+      "UpstreamPathTemplate": "/webapic/values",
+      "UpstreamHttpMethod": [ "Get" ]
+     
+    }
+  ]
+}

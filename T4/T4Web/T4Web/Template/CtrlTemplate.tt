@@ -1,0 +1,35 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true"#>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+using ApiCoreTest;
+using EFDbContext;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+
+namespace ApiCoreTest.Controllers
+{
+<#
+    //获取项目的根目录
+    var solutionsPath = Host.ResolveAssemblyReference("$(SolutionDir)");  
+    //获取配置文件
+    var lines = System.IO.File.ReadAllLines(solutionsPath + @"/T4Web/Template/CtrlNames.txt");
+    foreach(var name in lines)
+    {#>
+    public partial class <#= name#>Controller : Controller
+    {   
+        IOptions<ConfigModel> _config;
+        ILogger<<#= name#>Controller> _logger;
+        ApplicationDbContext _db;
+        public <#= name#>Controller(IOptions<ConfigModel> config, ILogger<<#= name#>Controller> logger, ApplicationDbContext db)
+        {
+            _config = config;
+            _logger = logger;
+            _db = db;
+        }
+    }
+<#}#>
+}

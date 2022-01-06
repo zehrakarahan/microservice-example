@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCAP", "WebCAP\WebCAP.csproj", "{DEC7C15B-A9CF-4123-A08D-03333D206699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webCapSubscrib", "webCapSubscrib\webCapSubscrib.csproj", "{F4643AB9-2B6D-4294-BD85-33A278E36321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC7C15B-A9CF-4123-A08D-03333D206699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC7C15B-A9CF-4123-A08D-03333D206699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC7C15B-A9CF-4123-A08D-03333D206699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC7C15B-A9CF-4123-A08D-03333D206699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4643AB9-2B6D-4294-BD85-33A278E36321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4643AB9-2B6D-4294-BD85-33A278E36321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4643AB9-2B6D-4294-BD85-33A278E36321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4643AB9-2B6D-4294-BD85-33A278E36321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3792991A-38D9-4951-83D6-B107D78A1FDF}
+	EndGlobalSection
+EndGlobal

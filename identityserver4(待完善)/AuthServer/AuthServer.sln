@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "AuthServer\AuthServer.csproj", "{0BB630D3-8CB9-492C-9A70-3F3AC76DB810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{3995342B-0B6B-4F2F-A945-6259825A1D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{DE80D48C-2D5B-4B6C-9743-03CF3BE3FDE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB630D3-8CB9-492C-9A70-3F3AC76DB810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB630D3-8CB9-492C-9A70-3F3AC76DB810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB630D3-8CB9-492C-9A70-3F3AC76DB810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB630D3-8CB9-492C-9A70-3F3AC76DB810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3995342B-0B6B-4F2F-A945-6259825A1D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3995342B-0B6B-4F2F-A945-6259825A1D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3995342B-0B6B-4F2F-A945-6259825A1D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3995342B-0B6B-4F2F-A945-6259825A1D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE80D48C-2D5B-4B6C-9743-03CF3BE3FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE80D48C-2D5B-4B6C-9743-03CF3BE3FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE80D48C-2D5B-4B6C-9743-03CF3BE3FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE80D48C-2D5B-4B6C-9743-03CF3BE3FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A34CFA74-0681-48FE-BA5B-CAC1188345F4}
+	EndGlobalSection
+EndGlobal
